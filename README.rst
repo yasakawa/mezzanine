@@ -8,30 +8,53 @@ Created by `Stephen McDonald <http://twitter.com/stephen_mcd>`_
 概要
 ========
 
-Mezzanine is a powerful, consistent, and flexible content management
-platform. Built using the `Django`_ framework, Mezzanine provides a
-simple yet highly extensible architecture that encourages diving in
-and hacking on the code. Mezzanine is `BSD licensed`_ and supported by
-a diverse and active community.
+..
+  Mezzanine is a powerful, consistent, and flexible content management
+  platform. Built using the `Django`_ framework, Mezzanine provides a
+  simple yet highly extensible architecture that encourages diving in
+  and hacking on the code. Mezzanine is `BSD licensed`_ and supported by
+  a diverse and active community.
+..
+Mezzanineはパワフルかつ一貫性があり、そしてフレキシブルなコンテンツ管理プラットフォームです。
+`Django`_ フレームワークを使用することで、Mezzanineはコードの編集を促進する
+シンプルで高度に拡張可能なアーキテクチャを提供しています。
+Mezzanineは `BSD licensed`_ で提供されており、アクティブかつ多様なコミュニティによりサポートされています。
 
-In some ways, Mezzanine resembles tools such as `Wordpress`_ that
-provide an intuitive interface for managing pages, blog posts, form
-data, store products, and other types of content. But Mezzanine is
-also different. Unlike many other platforms that make extensive use of
-modules or reusable applications, Mezzanine provides most of its
-functionality by default. This approach yields a more integrated and
-efficient platform.
+..
+  In some ways, Mezzanine resembles tools such as `Wordpress`_ that
+  provide an intuitive interface for managing pages, blog posts, form
+  data, store products, and other types of content. But Mezzanine is
+  also different. Unlike many other platforms that make extensive use of
+  modules or reusable applications, Mezzanine provides most of its
+  functionality by default. This approach yields a more integrated and
+  efficient platform.
+..
+ある意味では、Mezzanineは `Wordpress`_ のようなツールに似ています。
+両者は、ページ, ブログ投稿, フォームデータ, 店舗商品その他のコンテンツを
+管理する直感的なインタフェースを提供します。しかし、Mezzanineには
+異なる面もまたあります。モジュールや再利用可能なアプリケーションによる
+拡張性を有する他の多くのプラットフォームとは異なり、Mezzanineは
+その多くの機能を標準で提供しています。このアプローチは、より統合された効果的な
+プラットフォームを生み出しています。
 
-Visit the `Mezzanine project page`_ to see some of the `great sites
-people have built using Mezzanine`_.
+.. 
+  Visit the `Mezzanine project page`_ to see some of the `great sites
+  people have built using Mezzanine`_.
+..
+`Mezzanine project page`_ を訪れて、`great sites people have built using Mezzanine`_ 
+のいくつかを覗いてみてください。
 
 .. Features
 機能
 ========
 
-In addition to the usual features provided by Django such as MVC
-architecture, ORM, templating, caching and an automatic admin
-interface, Mezzanine provides the following:
+..
+  In addition to the usual features provided by Django such as MVC
+  architecture, ORM, templating, caching and an automatic admin
+  interface, Mezzanine provides the following:
+..
+Mezzanineでは、Djangoによる一般的な機能（MVCアーキテクチャ, ORM, テンプレート, 
+キャッシュ, 自動的な管理画面）に加えて、以下の機能を提供します:
 
 .. * Hierarchical page navigation
 .. * Save as draft and preview on site
@@ -88,7 +111,7 @@ interface, Mezzanine provides the following:
 * マルチデバイス検出とテンプレートのハンドリング
 * 他のブログエンジンからのワンステップでの移行
 * 自動化された本番へのプロビジョニングと移行
-* `Disqus`_ integration, or built-in threaded comments
+* `Disqus`_ との統合, もしくはビルトインのスレッド型コメント
 * `Gravatar`_ との統合
 * `Google Analytics`_ との統合
 * `Twitter`_ フィードとの統合
@@ -97,7 +120,8 @@ interface, Mezzanine provides the following:
 * 組み込み `test suite`_
 * `JVM`_ 互換 (via `Jython`_)
 
-The Mezzanine admin dashboard:
+.. The Mezzanine admin dashboard:
+Mezzanine管理ダッシュボード:
 
 .. image:: http://github.com/stephenmcd/mezzanine/raw/master/docs/img/dashboard.png
 
