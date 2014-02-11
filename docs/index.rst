@@ -2,6 +2,10 @@
 Mezzanine
 =========
 
+.. note::
+    本ドキュメントはMezzanine 3.0のドキュメントを日本語訳したものです。
+    元データはGitHub (https://github.com/yasakawa/mezzanine) で管理しています。
+
 Welcome to the Mezzanine project. To learn more about Mezzanine please
 read the :doc:`overview` which contains a feature list, installation
 guide and other general information. To get an idea of the types of
