@@ -33,38 +33,69 @@ In addition to the usual features provided by Django such as MVC
 architecture, ORM, templating, caching and an automatic admin
 interface, Mezzanine provides the following:
 
-* Hierarchical page navigation
-* Save as draft and preview on site
-* Scheduled publishing
-* Drag-and-drop page ordering
-* WYSIWYG editing
+.. * Hierarchical page navigation
+.. * Save as draft and preview on site
+.. * Scheduled publishing
+.. * Drag-and-drop page ordering
+.. * WYSIWYG editing
+.. * Drag-and-drop HTML5 forms builder with CSV export
+.. * SEO friendly URLs and meta data
+.. * Shopping cart module (`Cartridge`_)
+.. * Configurable `dashboard`_ widgets
+.. * Blog engine
+.. * Tagging
+.. * `Themes Marketplace`_
+.. * User accounts and profiles with email verification
+.. * Translated to over 35 languages
+.. * Sharing via Facebook or Twitter
+.. * `Custom templates`_ per page or blog post
+.. * `Twitter Bootstrap`_ integration
+.. * API for `custom content types`_
+.. * `Search engine and API`_
+.. * Seamless integration with third-party Django apps
+.. * Multi-device detection and template handling
+.. * One step migration from other blogging engines
+.. * Automated production provisioning and deployments
+.. * `Disqus`_ integration, or built-in threaded comments
+.. * `Gravatar`_ integration
+.. * `Google Analytics`_ integration
+.. * `Twitter`_ feed integration
+.. * `bit.ly`_ integration
+.. * `Akismet`_ spam filtering
+.. * Built-in `test suite`_
+.. * `JVM`_ compatible (via `Jython`_)
+* 階層的ページナビゲーション
+* サイト上での下書き保存とプレビュー
+* スケジュール公開
+* ドラッグ・アンド・ドロップによるページ並べ替え
+* WYSIWYG編集
 * `In-line page editing`_
-* Drag-and-drop HTML5 forms builder with CSV export
-* SEO friendly URLs and meta data
-* Shopping cart module (`Cartridge`_)
-* Configurable `dashboard`_ widgets
-* Blog engine
-* Tagging
+* ドラッグ・アンド・ドロップによるCSVエクスポート可能なHTML5フォームビルダ
+* SEOフレンドリなURLとメタデータ
+* ショッピングカート・モジュール (`Cartridge`_)
+* 編集可能な `dashboard`_ ウィジェット
+* ブログエンジン
+* タグ付け
 * `Themes Marketplace`_
-* User accounts and profiles with email verification
-* Translated to over 35 languages
-* Sharing via Facebook or Twitter
-* `Custom templates`_ per page or blog post
-* `Twitter Bootstrap`_ integration
+* メール認証可能なユーザ・アカウントとプロファイル
+* 35以上の言語への翻訳
+* FacebookやTwitterでの共有
+* ページやブログ投稿毎の `Custom templates`_ 
+* `Twitter Bootstrap`_ との統合
 * API for `custom content types`_
 * `Search engine and API`_
-* Seamless integration with third-party Django apps
-* Multi-device detection and template handling
-* One step migration from other blogging engines
-* Automated production provisioning and deployments
+* サードパーティ製Djangoアプリとのシームレスな統合
+* マルチデバイス検出とテンプレートのハンドリング
+* 他のブログエンジンからのワンステップでの移行
+* 自動化された本番へのプロビジョニングと移行
 * `Disqus`_ integration, or built-in threaded comments
-* `Gravatar`_ integration
-* `Google Analytics`_ integration
-* `Twitter`_ feed integration
-* `bit.ly`_ integration
-* `Akismet`_ spam filtering
-* Built-in `test suite`_
-* `JVM`_ compatible (via `Jython`_)
+* `Gravatar`_ との統合
+* `Google Analytics`_ との統合
+* `Twitter`_ フィードとの統合
+* `bit.ly`_ との統合
+* `Akismet`_ スパム・フィルタリング
+* 組み込み `test suite`_
+* `JVM`_ 互換 (via `Jython`_)
 
 The Mezzanine admin dashboard:
 
