@@ -4,7 +4,8 @@
 Created by `Stephen McDonald <http://twitter.com/stephen_mcd>`_
 
 ========
-Overview
+.. Overview
+概要
 ========
 
 Mezzanine is a powerful, consistent, and flexible content management
