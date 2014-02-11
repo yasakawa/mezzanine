@@ -3,8 +3,8 @@
 
 Created by `Stephen McDonald <http://twitter.com/stephen_mcd>`_
 
-========
 .. Overview
+========
 概要
 ========
 
@@ -25,7 +25,8 @@ efficient platform.
 Visit the `Mezzanine project page`_ to see some of the `great sites
 people have built using Mezzanine`_.
 
-Features
+.. Features
+機能
 ========
 
 In addition to the usual features provided by Django such as MVC
@@ -69,7 +70,8 @@ The Mezzanine admin dashboard:
 
 .. image:: http://github.com/stephenmcd/mezzanine/raw/master/docs/img/dashboard.png
 
-Dependencies
+.. Dependencies
+依存関係
 ============
 
 Mezzanine makes use of as few libraries as possible (apart from a
@@ -87,13 +89,15 @@ standard Django environment), with the following dependencies:
 * `requests`_ and `requests-oauth`_ - for interacting with external APIs
 * `pyflakes`_ and `pep8`_ - for running the test suite (optional)
 
-Browser Support
+.. Browser Support
+ブラウザ・サポート
 ===============
 
 Mezzanine's admin interface works with all modern browsers.
 Internet Explorer 7 and earlier are generally unsupported.
 
-Installation
+.. Installation
+インストール方法
 ============
 
 The easiest method is to install directly from pypi using `pip`_ by
@@ -137,7 +141,8 @@ when running ``createdb``.
 For information on how to add Mezzanine to an existing Django project,
 see the FAQ section of the documentation.
 
-Contributing
+.. Contributing
+貢献
 ============
 
 Mezzanine is an open source project managed using both the Git and
@@ -171,7 +176,8 @@ up a development environment and run the unit tests, using
     $ cp mezzanine/project_template/local_settings.py.template mezzanine/project_template/local_settings.py
     $ ./mezzanine/project_template/manage.py test
 
-Language Translations
+.. Language Translations
+言語翻訳
 =====================
 
 Mezzanine makes full use of translation strings, which allow Mezzanine
@@ -182,7 +188,8 @@ internationalization`_ methodology. Translations are managed on the
 internationalization`_ methodology for more information on creating
 translations and using them.
 
-Third-party Modules
+.. Third-party Modules
+サードパーティ モジュール
 ===================
 
 The following modules have been developed outside of Mezzanine. If you
@@ -253,13 +260,15 @@ You can also add modules to the `Mezzanine Grid on djangopackages.com`_.
 * `mezzanine-admin-backup`_ - Export your Mezzanine database and assets directly from the admin.
 * `mezzanine-mailchimp`_ - Integrate Mezzanine forms with a MailChimp subscription list.
 
-Donating
+.. Donating
+寄付
 ========
 
 If you would like to make a donation to continue development of
 Mezzanine, you can do so via the `Mezzanine Project`_ website.
 
-Support
+.. Support
+サポート
 =======
 
 To report a security issue, please send an email privately to
@@ -275,7 +284,8 @@ IRC channel`_ on `Freenode`_, for a chat.
 Communications in all Mezzanine spaces are expected to conform
 to the `Django Code of Conduct`_.
 
-Sites Using Mezzanine
+.. Sites Using Mezzanine
+Mezzanineを使用しているサイト
 =====================
 
 * `Citrus Agency <http://citrus.com.au/>`_
@@ -469,7 +479,8 @@ Sites Using Mezzanine
 * `Perceptyx <http://www.perceptyx.com/>`_
 
 
-Quotes
+.. Quotes
+引用
 ======
 
 * "I'm enjoying working with Mezzanine, it's good work"
