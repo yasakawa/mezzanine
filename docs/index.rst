@@ -53,15 +53,25 @@ Mezzanineはコンテンツ管理者がサイト上でページを参照して�
 この機能についてや、テンプレート内でのその実装方法については
 :doc:`inline-editing` で参照することができます。
 
-**Back-end developers** can get a better technical overview of how
-content is managed and how to customize Mezzanine in general by
-reading about Mezzanine's :doc:`content-architecture` which describes
-the main components and how to extend them with your own custom
-content types, or by reading about :doc:`model-customization` for
-implementing more low-level customizations as required. There is also
-a section on the :doc:`admin-customization` provided by Mezzanine, as
-well as a :doc:`model-graph` depicting the relationships between all
-the models.
+..
+    **Back-end developers** can get a better technical overview of how
+    content is managed and how to customize Mezzanine in general by
+    reading about Mezzanine's :doc:`content-architecture` which describes
+    the main components and how to extend them with your own custom
+    content types, or by reading about :doc:`model-customization` for
+    implementing more low-level customizations as required. There is also
+    a section on the :doc:`admin-customization` provided by Mezzanine, as
+    well as a :doc:`model-graph` depicting the relationships between all
+    the models.
+..
+
+**バックエンド開発者** 主要コンポーネントとあなた独自のカスタムコンテンツタイプ
+について記載されたMezzanineの :doc:`content-architecture` を参照することで、
+コンテンツの管理方法やMezzanineの一般的なカスタマイズ方法についての
+より技術的な概要を知ることができます。また、より低いレベル（≒低レイヤ）での
+カスタマイズが必要な場合は :doc:`model-customization` を参照してください。
+そこにはMezzanineにより提供される :doc:`admin-customization` や、
+全てのモデル間の関係図 :doc:`model-graph` についてのセクションがあります。
 
 **System administrators** can find out about some of the production
 requirements and operations in the :doc:`deployment` and
