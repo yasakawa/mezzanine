@@ -73,17 +73,33 @@ Mezzanineはコンテンツ管理者がサイト上でページを参照して�
 そこにはMezzanineにより提供される :doc:`admin-customization` や、
 全てのモデル間の関係図 :doc:`model-graph` についてのセクションがあります。
 
-**System administrators** can find out about some of the production
-requirements and operations in the :doc:`deployment` and
-:doc:`caching-strategy` sections.
+..
+    **System administrators** can find out about some of the production
+    requirements and operations in the :doc:`deployment` and
+    :doc:`caching-strategy` sections.
+..
 
-**Further reading** includes :doc:`frequently-asked-questions`,
-:doc:`utilities`, a section on :doc:`user-accounts`,
-information about Mezzanine's :doc:`search-engine`, and a section
-on Mezzanine's :doc:`configuration` which outlines the various settings
-for configuring Mezzanine. Lastly, you can learn about
-:doc:`blog-importing` into Mezzanine, or just browse the auto-generated
-docs for each of Mezzanine's :doc:`packages`.
+**システム管理者** 本番環境の要件やオペレーションについては
+:doc:`deployment` と :doc:`caching-strategy` セクションで
+確認することができます。
+
+..
+    **Further reading** includes :doc:`frequently-asked-questions`,
+    :doc:`utilities`, a section on :doc:`user-accounts`,
+    information about Mezzanine's :doc:`search-engine`, and a section
+    on Mezzanine's :doc:`configuration` which outlines the various settings
+    for configuring Mezzanine. Lastly, you can learn about
+    :doc:`blog-importing` into Mezzanine, or just browse the auto-generated
+    docs for each of Mezzanine's :doc:`packages`.
+..
+**追加文献** :doc:`frequently-asked-questions` や :doc:`utilities` 、
+:doc:`user-accounts` のあるセクション、Mezzanineの :doc:`search-engine` についての情報、
+そして :doc:`configuration` にはMezzanineを設定するための多数の設定
+についての概要などがあります。
+最後に、Mezzanineへの :doc:`blog-importing` について学ぶことや、
+Mezzanineの各 :doc:`packages` について自動生成されたドキュメントを
+参照することさえも可能です。
+
 
 Table Of Contents
 =================
