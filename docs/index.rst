@@ -30,7 +30,7 @@ Mezzanineでどのような種類のサイトが実現可能かのアイデア�
     Mezzanine Is Just Django* - `Ken Bolton <http://bscientific.org/>`_,
     long-time Mezzanine contributor.
 ..
-Mezzanineでの作業やドキュメントは、Django <https://www.djangoproject.com/>`_
+Mezzanineでの作業やドキュメントは、`Django <https://www.djangoproject.com/>`_
 の作業知識を前提としています。もしあなたが初めてDjangoに触れる場合は、
 Mezzanineのドキュメントで使用されるコンセプトを理解しようとする前に
 `Djangoチュートリアル <https://docs.djangoproject.com/en/dev/intro/tutorial01/>`_
