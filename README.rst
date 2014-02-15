@@ -167,7 +167,7 @@ Internet Explorer 7以前についてはサポート対象外です。
 ..
 最も簡単な方法は以下のコマンドで `pip`_ を使って pypi から
 直接インストールすることです。この方法では前述の依存関係もあわせて
-インストールされます。
+インストールされます。::
 
     $ pip install mezzanine
 
@@ -176,7 +176,7 @@ Internet Explorer 7以前についてはサポート対象外です。
    source::
 ..
 好みによっては、Mezzanineをダウンロードしてソースから直接
-インストールすることも可能です。
+インストールすることも可能です。::
 
     $ python setup.py install
 
@@ -187,12 +187,13 @@ Internet Explorer 7以前についてはサポート対象外です。
 ..
 一度インストールしてしまえば、``django-admin.py`` のように
 ``mezzanine-project`` コマンドを使用して新規のMezzanine
-プロジェクトを作成することができます。
+プロジェクトを作成することができます。::
 
     $ mezzanine-project project_name
     $ cd project_name
     $ python manage.py createdb --noinput
     $ python manage.py runserver
+
 
 .. note::
 
