@@ -148,27 +148,46 @@ standard Django environment), with the following dependencies:
 ブラウザ・サポート
 ===============
 
-Mezzanine's admin interface works with all modern browsers.
-Internet Explorer 7 and earlier are generally unsupported.
+..
+   Mezzanine's admin interface works with all modern browsers.
+   Internet Explorer 7 and earlier are generally unsupported.
+..
+Mezzanineの管理インタフェースは全てのモダンブラウザで動作します。
+Internet Explorer 7以前についてはサポート対象外です。
+
 
 .. Installation
 インストール方法
 ============
 
-The easiest method is to install directly from pypi using `pip`_ by
-running the command below, which will also install the required
-dependencies mentioned above::
+..
+   The easiest method is to install directly from pypi using `pip`_ by
+   running the command below, which will also install the required
+   dependencies mentioned above::
+..
+最も簡単な方法は以下のコマンドで `pip`_ を使って pypi から
+直接インストールすることです。この方法では前述の依存関係もあわせて
+インストールされます。
 
     $ pip install mezzanine
 
-If you prefer, you can download Mezzanine and install it directly from
-source::
+..
+   If you prefer, you can download Mezzanine and install it directly from
+   source::
+..
+好みによっては、Mezzanineをダウンロードしてソースから直接
+インストールすることも可能です。
 
     $ python setup.py install
 
-Once installed, the command ``mezzanine-project`` can be used to
-create a new Mezzanine project in similar fashion to
-``django-admin.py``::
+..
+   Once installed, the command ``mezzanine-project`` can be used to
+   create a new Mezzanine project in similar fashion to
+   ``django-admin.py``::
+..
+一度インストールしてしまえば、``django-admin.py`` のように
+``mezzanine-project`` コマンドを使用して新規のMezzanine
+プロジェクトを作成することができます。
 
     $ mezzanine-project project_name
     $ cd project_name
